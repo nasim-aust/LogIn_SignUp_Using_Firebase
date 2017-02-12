@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "6111628528",
+    "firebase_url": "https://timetune-c74db.firebaseio.com",
+    "project_id": "timetune-c74db",
+    "storage_bucket": "timetune-c74db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6111628528:android:60d71ece8dd1b679",
+        "android_client_info": {
+          "package_name": "com.csenasim.timetune.timetune"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6111628528-chfcok63rh9lnafsjhp3iuub4qtsasq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCus4u-CQiAtlshLWZZUNofCBaY32YCUtk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
