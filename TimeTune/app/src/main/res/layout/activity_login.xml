@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context="com.csenasim.timetune.timetune.Login"
+    android:background="@drawable/common_google_signin_btn_icon_dark_disabled">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+
+        android:id="@+id/etusername"
+        android:layout_weight="0.04"
+        android:hint="Username/Email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd ="true"
+        android:layout_alignParentLeft ="true"
+        android:layout_alignParentRight ="true"
+        android:layout_alignParentStart ="true"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etpassword"
+        android:layout_weight="0.06"
+        android:hint="Password" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0.02" />
+
+    <Button
+        android:text="Login"
+        android:onClick="login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:layout_weight="0.04"
+        android:background="@color/colorPrimary" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:text="Registration Here"
+        android:onClick="registation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:layout_weight="0.04"
+        android:background="@color/colorPrimary" />
+
+</LinearLayout>
